@@ -312,7 +312,7 @@ signals:init({ env = env })
 
 -- Autostart user applications
 -----------------------------------------------------------------------------------------------------------------------
-local autostart = require("blue.autostart-config") -- load file with autostart application list
+local autostart = require("purple.autostart-config") -- load file with autostart application list
 
 if timestamp.is_startup() then
 	autostart.run()
